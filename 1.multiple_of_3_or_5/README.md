@@ -5,7 +5,7 @@
   - [Solution](#solution)
   - [Usage](#usage)
   - [Contributing](#contributing)
-- [Notes](./notes)
+- [Notes](./notes.md)
 
 # Project Euler Problem 1
 
