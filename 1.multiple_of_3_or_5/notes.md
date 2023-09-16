@@ -54,12 +54,12 @@ not supported in Internet Explorer 11 or earlier.</p>
   </tr>
 </table>
 </div>
+
+
 - source : [w3schools](https://www.w3schools.com/js/js_let.asp)
 
-## How to run js files in terminal
-### Installing `nodejs`
-## Installation
-
+# How to run js files in terminal
+## Installing `nodejs`
 To install [Node.js](https://www.google.com/search?q=Node.js) on your terminal, follow these steps:
 
 1. Open the terminal from your system's main menu or press the Ctrl + Alt + T shortcut.
