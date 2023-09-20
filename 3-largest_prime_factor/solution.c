@@ -3,12 +3,20 @@
 void primefactors(long long int);
 int isPrime(long long int);
 
+/**
+ * main - Entry
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	primefactors(600851475143);
-	return 0;
+	return (0);
 }
 
+/**
+ * primefactors - finds the largest prime factor
+ * @n: parameter
+ */
 void primefactors(long long int n)
 {
 	long long int i = 1;
@@ -33,13 +41,18 @@ void primefactors(long long int n)
 }
 
 
+/**
+ * isPrime - checks whether a number is a prime number
+ * @n: parameter
+ * Return: 0 (false), 1(true)
+ */
 int isPrime(long long n)
 {
 	int i = 2;
 
-	for (i = 2; i <= n/2; i++)
+	for (i = 2; i <= n / 2; i++)
 	{
-		if(n%i == 0)
+		if (n % i == 0)
 		{
 			return (0);
 		}
