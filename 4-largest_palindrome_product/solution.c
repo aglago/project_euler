@@ -49,6 +49,10 @@ int isPalindromic(int product)
 	int first_product = product;
 	int numberOfdigits = 0;
 
+	/* negative numbers are not palindromic */
+	if (product < 0)
+		return (0);
+
 	while (first_product)
 	{
 		r_prod[i] = (first_product % 10) + '0';
